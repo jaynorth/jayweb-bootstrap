@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jayweb Bootstrap</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel ="stylesheet">
+		<link href="css/style.css" rel ="stylesheet">
+		
+		
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">JayWeb</div>
+
+					<button class="navbar-toggle" data-toggle = "collapse" data-target =".navHeaderCollapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+				</div>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active" ><a href="#">Home</a></li>
+							<li><a href="#">dev</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li ><a href="#">Temperature converter</a></li>
+									<li ><a href="#">Currency converter</a></li>
+									<li ><a href="#">measurements converter</a></li>	
+								</ul>
+							</li>
+							<li><a href="#">Photography</a></li>
+							<li><a href="#">Contact</a></li>
+							
+						</ul>
+					</div>
+
+			</div>	
+
+		</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>What the fuck?</h3>
+				<img src="images/azizi1.jpg" width="80%" >
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum rhoncus suscipit. Integer purus elit, scelerisque eget ante a, sollicitudin porttitor lacus. Proin eget lacinia turpis. Ut enim lorem, venenatis in nisi sit amet, vulputate euismod felis. Vestibulum et nibh nulla. Nullam egestas massa eget augue venenatis malesuada. Morbi ex erat, pellentesque et consectetur vitae, ullamcorper eu sem. Aliquam laoreet convallis odio id fringilla. Quisque placerat sem nisi, ac pretium diam pulvinar a. Curabitur porttitor nulla non ex sagittis semper. Nam vestibulum id justo at feugiat. Phasellus eleifend ornare lacus ut tincidunt. Mauris vel ante vitae justo blandit faucibus. Quisque eu tincidunt quam, ac iaculis mi.
+				</p>
+			
+			</div>
+			<div class="col-md-4">
+				<h3>Really?</h3>
+				<img src="images/azizi1.jpg" width=80%>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum rhoncus suscipit. Integer purus elit, scelerisque eget ante a, sollicitudin porttitor lacus. Proin eget lacinia turpis. Ut enim lorem, venenatis in nisi sit amet, vulputate euismod felis. Vestibulum et nibh nulla. Nullam egestas massa eget augue venenatis malesuada. Morbi ex erat, pellentesque et consectetur vitae, ullamcorper eu sem. Aliquam laoreet convallis odio id fringilla. Quisque placerat sem nisi, ac pretium diam pulvinar a. Curabitur porttitor nulla non ex sagittis semper. Nam vestibulum id justo at feugiat. Phasellus eleifend ornare lacus ut tincidunt. Mauris vel ante vitae justo blandit faucibus. Quisque eu tincidunt quam, ac iaculis mi.
+				</p>
+			
+			</div>
+			<div class="col-md-4">
+				<h3>Seriously?</h3>
+				<img src="images/azizi2.jpg" width=80%>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum rhoncus suscipit. Integer purus elit, scelerisque eget ante a, sollicitudin porttitor lacus. Proin eget lacinia turpis. Ut enim lorem, venenatis in nisi sit amet, vulputate euismod felis. Vestibulum et nibh nulla. Nullam egestas massa eget augue venenatis malesuada. Morbi ex erat, pellentesque et consectetur vitae, ullamcorper eu sem. Aliquam laoreet convallis odio id fringilla. Quisque placerat sem nisi, ac pretium diam pulvinar a. Curabitur porttitor nulla non ex sagittis semper. Nam vestibulum id justo at feugiat. Phasellus eleifend ornare lacus ut tincidunt. Mauris vel ante vitae justo blandit faucibus. Quisque eu tincidunt quam, ac iaculis mi.
+				</p>
+			
+			</div>
+		
+		</div>
+
+	</div>
+
+
+
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by Jayweb</p>
+			<a href="#" class="navbar-btn btn-danger btn pull-right">Contact</a>
+		</div>
+		
+	</nav>
+		
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	</body>
+
+</html>
